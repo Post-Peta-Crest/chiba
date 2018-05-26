@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+
+title: Software Development Environments for Super Computing in Post-petascale Era
+
+github:
+  is_project_page: false

@@ -12,14 +12,14 @@ title: Software Development Environments for Super Computing in Post-petascale E
 
 # Published Software
 
-* [Bytespresso: A development framework for Java-based embedded DSLs](https://github.com/csg-tokyo/bytespresso)
-* [Yadriggy: A development framework for Ruby-based embedded DSLs](https://github.com/csg-tokyo/yadriggy)
-* [Ikra: An embedded DSL (or a library) for array processing in Ruby by using GPUs](https://rubygems.org/gems/ikra)
-* [VeriCUDA: A static verification system for CUDA programs on the basis of Hoare logic.](https://github.com/SoftwareFoundationGroupAtKyotoU/Vericuda)
+* [Bytespresso](https://github.com/csg-tokyo/bytespresso): A development framework for Java-based embedded DSLs
+* [Yadriggy](https://github.com/csg-tokyo/yadriggy): A development framework for Ruby-based embedded DSLs
+* [Ikra](https://rubygems.org/gems/ikra): An embedded DSL (or a library) for array processing in Ruby by using GPUs
+* [VeriCUDA](https://github.com/SoftwareFoundationGroupAtKyotoU/Vericuda): A static verification system for CUDA programs on the basis of Hoare logic
 
 ---
 
-# Modularity for Supercomputing --- Applying modern software engineering technology to HPC
+# Modularity for Supercomputing -- Applying modern software engineering technology to HPC
 
 ## Overview
 
@@ -69,7 +69,7 @@ provides an extended Array class, which is executed by the Ruby
 interpreter with native compiled code for array processing. Ikra’s
 challenges are generalization of application-specific optimizations:
 supporting a wide range of parallel architectures and combining
-various optimization tech- niques such as communication/computation
+various optimization techniques such as communication/computation
 overlapping and temporal blocking.  Ikra addresses these challenges by
 parameterized templates, which is unique against related systems based
 on brute-force implementations or post- processing.  The methods
